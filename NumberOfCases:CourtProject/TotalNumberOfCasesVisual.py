@@ -13,5 +13,8 @@ if __name__ == "__main__":
     plt.style.use('seaborn')
     fig, ax = plt.subplots()
     plt.plot(x_values, y_values, linewidth=3)
-    
+
+    ax.set_title(type, fontsize=24)
+    ax.set_xlabel("Years", fontsize=14)
+
     plt.show()
